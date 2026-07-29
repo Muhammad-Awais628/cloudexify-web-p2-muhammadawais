@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View sizes, colors and details for premium sneakers at Monarch Sole.">
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <title>Product Details | Monarch Sole</title>
+
+    <!-- Preconnects: speed up the critical requests below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+    <!-- Font (render-blocking but tiny; swap avoids invisible text) -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons: not needed for first paint, load non-blocking -->
+    <link rel="preload" as="style"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div id="header"></div>
+    <section class="product-details py-5 mt-5">
+        <div class="container">
+            <div id="productDetails"></div>
+        </div>
+    </section>
+    <div id="footer"></div>
+    <div id="imageViewer" class="image-viewer">
+        <span class="close-viewer" onclick="closeImageViewer()" role="button" tabindex="0"
+            aria-label="Close image viewer"> &times;
+        </span>
+        <img id="viewerImage" alt="Enlarged product image">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script>
+        const pageType = "product";
+    </script>
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>

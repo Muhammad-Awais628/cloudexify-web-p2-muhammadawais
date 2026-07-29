@@ -1,0 +1,75 @@
+<header id="header" class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <span class="text-warning">Monarch</span> Sole
+            </a>
+
+            <!-- Toggle -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar" aria-label="Toggle navigation menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#"  data-bs-toggle="dropdown">
+                            Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="men.html">Men Sneakers</a></li>
+                            <li><a href="women.html">Women Sneakers</a></li>
+                            <li><a href="sale.html">Sale</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <!-- Right Side -->
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Search -->
+                    <form class="search-box" id="searchForm">
+                        <input type="search" id="search" class="form-control" placeholder="Search Sneakers"  aria-label="Search sneakers">
+                    </form>
+                    <!-- Countdown -->
+                    <div class="countdown">
+                        Drop In
+                        <span id="countdown"></span>
+                    </div>
+                    <!-- Theme -->
+                    <button class="btn btn-outline-light rounded-circle" id="themeBtn" aria-label="Toggle dark mode">
+                        <i class="bi bi-moon-stars"></i>
+                    </button>
+
+                    <button class="btn btn-outline-light position-relative" onclick="window.location.href='wishlist.html'" aria-label="View wishlist">
+                        <i class="bi bi-heart"></i>
+                        <span id="wishlistCount" class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle">
+                            0
+                        </span>
+
+                    </button>
+                    <!-- Cart -->
+                    <button class="btn btn-warning position-relative px-4" id="cartBtn">
+                        <i class="bi bi-bag-fill"></i>
+                        Cart
+                        <span id="cartCount" class="badge bg-danger rounded-pill position-absolute top-0 start-100 translate-middle">
+                            0
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Monarch Sole — premium sneaker drops for men and women. Shop new arrivals and up to 60% off select styles.">
+    <link rel="icon" type="image/x-icon" href="assets/logo.jpg">
+    <title>Monarch Sole | Home</title>
+
+    <!-- Preconnects: speed up the critical requests below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+    <!-- Font (render-blocking but tiny; swap avoids invisible text) -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons: not needed for first paint, load non-blocking -->
+    <link rel="preload" as="style"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </noscript>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header"></div>
+    <div class="scroll-blocks">
+        <!-- SALE HERO -->
+        <section class="sale-section snap-section block-fade" id="home">
+            <img src="assets/hero-banner-split.jpeg" alt="Sale Banner" fetchpriority="high">
+            <div class="overlay">
+                <small class="text-warning fw-bold mb-3 block-fade-item">
+                    LIMITED EDITION
+                </small>
+                <h1 class="block-fade-item">SUMMER COLLECTION</h1>
+                <p class="block-fade-item">
+                    Up to <strong>60% OFF</strong> on Premium Fashion
+                </p>
+                <a href="sale.html" class="btn btn-warning btn-lg block-fade-item">
+                    Shop Now
+                </a>
+            </div>
+        </section>
+        <!-- CATEGORIES -->
+        <section id="category" class="snap-section block-fade">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- MEN -->
+                    <div class="col-lg-6 col-12 p-10 block-fade-item">
+                        <a href="men.html" class="hero-card">
+                            <img src="assets/mencover.jpg" alt="Men Collection" loading="lazy">
+                            <div class="hero-overlay">
+                                <div>
+                                    <h2>MEN</h2>
+                                    <p>Premium Collection</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- WOMEN -->
+                    <div class="col-lg-6 col-12 p-10 block-fade-item">
+                        <a href="women.html" class="hero-card">
+                            <img src="assets/womencover.jpg" alt="Women Collection" loading="lazy">
+                            <div class="hero-overlay">
+                                <div>
+                                    <h2>WOMEN</h2>
+                                    <p>New Arrivals</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-box reveal-scale">
+                <h2>Join Monarch Sole</h2>
+                <p>
+                    Subscribe for exclusive drops and offers.
+                </p>
+                <form id="newsletterForm">
+                    <div class="newsletter-form">
+                        <input type="email" id="newsletterEmail" class="form-control" placeholder="Enter your email"
+                            aria-label="Email address" required>
+                        <button type="submit" class="btn btn-warning">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+                <div id="newsletterMessage" class="mt-3"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="js/data.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
