@@ -1,12 +1,12 @@
 # Monarch Sole - Premium Sneaker E-Commerce Platform
 ## Project Report — CloudExify Summer Internship 2026
 
-**Submitted By:** Muhammad Awais
-**Registrtion Number:** CX-INT-2026-GEN-0154
-**Technology Stack:** HTML5, CSS3, JavaScript (Vanilla JS), Bootstrap
+**Submitted By:** Muhammad Awais  
+**Registrtion Number:** CX-INT-2026-GEN-0154  
+**Technology Stack:** HTML5, CSS3, JavaScript (Vanilla JS), Bootstrap  
 **Project Type:** E-Commerce Platform
-**Development Environment:** Visual Studio Code, Google Chrome, Git & GitHub
-**Submitted To:** CloudExify Summer Internship 2026
+**Development Environment:** Visual Studio Code, Google Chrome, Git & GitHub  
+**Submitted To:** CloudExify Summer Internship 2026  
 
 
 ## 📋 Overview
@@ -402,15 +402,15 @@ This project is proprietary and not open source. Unauthorized copying or distrib
 ✅ Form validation  
 
 ### Testing Checklist
-- ✅ All pages load without errors
-- ✅ Responsive on mobile, tablet, desktop
-✅ Cart persists after page reload
-✅ Dark mode toggles correctly
-✅ All forms validate properly
-✅ Images load and display correctly
-✅ Links navigate to correct pages
-✅ Search functionality works
-✅ Countdown timer displays
+✅ All pages load without errors  
+✅ Responsive on mobile, tablet, desktop  
+✅ Cart persists after page reload  
+✅ Dark mode toggles correctly  
+✅ All forms validate properly  
+✅ Images load and display correctly  
+✅ Links navigate to correct pages  
+✅ Search functionality works  
+✅ Countdown timer displays  
 
 ---
 
@@ -463,8 +463,8 @@ Currently, no analytics are implemented. For production, consider adding:
 **Status**: Active
 
 ## Project Information
-**Project Title:** E-Commerce Platform
-**Developed By:** Muhammad Awais
-**Registrtion Number:** CX-INT-2026-GEN-0154
-**Technology Stack:** HTML5, CSS3, JavaScript, Bootstrap
-**Internship:** CloudExify Summer Internship 2026
+**Project Title:** E-Commerce Platform  
+**Developed By:** Muhammad Awais  
+**Registrtion Number:** CX-INT-2026-GEN-0154  
+**Technology Stack:** HTML5, CSS3, JavaScript, Bootstrap  
+**Internship:** CloudExify Summer Internship 2026  
