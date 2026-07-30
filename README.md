@@ -402,8 +402,8 @@ This project is proprietary and not open source. Unauthorized copying or distrib
 ✅ Form validation  
 
 ### Testing Checklist
-✅ All pages load without errors
-✅ Responsive on mobile, tablet, desktop
+- ✅ All pages load without errors
+- ✅ Responsive on mobile, tablet, desktop
 ✅ Cart persists after page reload
 ✅ Dark mode toggles correctly
 ✅ All forms validate properly
